@@ -1,0 +1,140 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 0.4rem;
+  background-color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+  padding:  1rem 1.5rem;
+  border-radius: 7px;
+}
+
+.card-container.border{
+  border-left: 4px solid var(--Desaturated-Dark-Cyan);
+}
+
+.image-container{
+  margin-top: -2.5rem;
+}
+
+.image-container img {
+  width: 50px;
+}
+
+.company-name-container{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.tags span {
+  padding: 0.5rem 0.7rem 0.35rem;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.tags span:last-child {
+  margin-right: 0;
+}
+
+.new {
+  background-color: var(--Desaturated-Dark-Cyan);
+}
+
+.featured {
+  background-color: var(--Very-Dark-Grayish-Cyan);
+}
+
+.job-description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.company-name {
+  color: var(--Desaturated-Dark-Cyan);
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.extra-details {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: var(--Dark-Grayish-Cyan);
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.extra-details span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.bullet {
+  width: 5px;
+  height: 5px;
+  background-color: rgb(160, 160, 160);
+  border-radius: 30px;
+}
+
+.filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-top: 1px solid rgb(160, 160, 160);
+  padding: 1rem 0 0.5rem;
+}
+
+.card-container .btn{
+  border: transparent;
+  border-radius: 5px;
+  padding: 0.3rem 0.5rem 0.1rem;
+  font-weight: 700;
+  color: var(--Desaturated-Dark-Cyan);
+  background-color: var(--Light-Grayish-Cyan-Filter-Tablets);
+}
+
+.card-container .btn:hover{
+  background-color: var(--Desaturated-Dark-Cyan);
+  border: transparent;
+  color: #ffffff;
+}
+
+
+@media (min-width:720px){
+  .card-container {
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    max-width: 1110px;
+  }
+
+  .image-container {
+    margin-top: 0;
+  }
+
+  .image-container img {
+    width: 90px;
+  }
+
+  h2 {
+    font-size: initial;
+  }
+
+  .extra-details {
+    justify-content: space-between;
+  }
+  .filter-tabs {
+    margin-left: auto;
+    border: transparent;
+    justify-self: flex-end;
+  }
+}
