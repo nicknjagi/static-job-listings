@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/nicknjagi/static-job-listings)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site ↗](https://dazzling-begonia-3e8d22.netlify.app/)
 
 ## My process
 
